@@ -1,0 +1,121 @@
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <title>GHS App</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" sizes="192x192" href="Branding/192px%20logo.png">
+    <link rel="shortcut icon" href="Branding/Favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="Branding/App%20Logo%20Full.png">
+    <link rel="apple-touch-startup-image" href="Branding/logo%20no%20alpha.png">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="vivify.min.css" rel="stylesheet" type="text/css">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</head>
+
+<body>
+
+    <body class="body">
+        <header>
+            <div class="logowrapper">
+                <a href="qr%20code.html">
+                    <div><img class="logo vivify fadeIn" src="Branding/Main%20Logo.svg" width="57px"></div>
+                </a>
+            </div>
+            <marquee class="scroller vivify  " width="100%" height="25">News: Open House August 30th At 6:00pm &emsp; &emsp; &emsp; Admiral Season Tickets Available &emsp; &emsp; &emsp; Tutoring will be on Monday and Wednesday from 3:35 - 4:30. &emsp; &emsp; &emsp; September 3rd | Labor Day Holiday &emsp; &emsp; &emsp; </marquee>
+            <a href="Search.html">
+                <div><img class="searchicon" src="Icons/ic_search_24px.svg"></div>
+            </a>
+            <a href="Kahoot.html">
+                <div><img class="lefticon vivify pulsate infinite" src="Icons/Kahoot.svg" width="30px;"> </div>
+            </a>
+        </header>
+        <div class="gallery js-flickity vivify fadeIn" style="position: fixed" data-flickity='{ "autoPlay": 3600, "pauseAutoPlayOnHover": false, "prevNextButtons": false, "initialIndex": 1, "pageDots": false  }'>
+            <div class="gallery-cell">
+                <a href="https://www.youtube.com/watch?v=psEqmdkWqPA" target="_blank"><img src="Images/Institutes-Thumbnail-compressor.jpg" width="360px; "></a>
+            </div>
+            <div class="gallery-cell"> <img src="Images/Open%20House.jpg" width="360px;"> </div>
+            <div class="gallery-cell">
+                <a href="Kahoot.html"><img src="Images/Now%20With%20Kahoot.jpg" width="360px;"></a>
+            </div>
+            <div class="gallery-cell">
+                <a href="http://www.wlox.com/story/38679065/gulfport-coaches-called-heroes-after-helping-accident-victim" target="_blank"><img src="Images/Gulfport%20Coaches.jpg" width="360px;"></a>
+            </div>
+            <div class="gallery-cell">
+                <a href="Admiral%20Nation.html"><img src="Images/Admiral Nation Featured.jpg" width="360px;"></a>
+            </div>
+        </div>
+        <script>
+            var $carousel = $('.carousel').flickity({
+                imagesLoaded: true,
+                percentPosition: false,
+            });
+        </script>
+        <script></script>
+        <a href="feedback.html">
+            <div class="feedback"><img class="feedbackicon vivify popIn delay-2500" src="Icons/feedbackicon.svg"></div>
+        </a>
+        <div class="midsection fadein">
+            <a href="Check%20My%20Grade.html">
+                <section> <img class="Eduicon" src="Icons/outline-school-24px.svg" width="24px">
+                    <h1 class="edusubtext ripple" style="width: 82%;">Check My Grades</h1>
+                    <h1 class="eduexternal">Powered By Chalkable</h1>
+                </section>
+            </a>
+            <div class="navigator"></div>
+            <a href="MealMenu.html">
+                <section> <img class="mealmenuicon" src="Icons/outline-local_pizza-24px.svg" width="25px">
+                    <h1 class="mealtext">Meal Menu</h1>
+                    <h1 class="eduexternal" style="top: 349;">August 2018</h1>
+                    <div class="navigator" style="top: 349px;"></div>
+                </section>
+            </a>
+            <a href="Admiral%20Nation.html">
+                <section> <img class="admiralnationicon" src="Icons/outline-local_grocery_store-24px.svg" width="24px">
+                    <h1 class=" admiralnationtext " width="98%;">Admiral Nation</h1>
+                </section>
+            </a>
+            <div class="verticallinediv"></div>
+            <a href="Annual%20Staff-home.html">
+                <section> <img class="Annual-icon" src="Icons/outline-photo_camera-24px.svg" width="24px">
+                    <h1 class="Annual-text">Annual Staff</h1>
+                </section>
+            </a>
+        </div>
+        <div class="subbarbase"></div>
+        <div class="dockdiv"></div>
+        <div class="dock"> <img class="dockbase" src="Assets/Rectangle%201.svg" ;>
+            <a href="index.html">
+                <div class="home"> <img class="homeicon vivify popIn" src="Icons/Home%20Icon%20Active.svg" width="33px"> </div>
+                <div class="alerticon vivify pulsate infinite" style="display: none;"></div>
+            </a>
+            <a href="Groups-Athletics.html">
+                <div class=""> <img class="athleticicon vivify fadeIn" src="Icons/Athletic%20Icon%20Inactive.svg" width="48px"> </div>
+            </a>
+            <a href="Media-Home.html ">
+                <div class="media "> <img class="mediaicon vivify fadeIn" src="Icons/Media%20Icon%20Inactive.svg" width="33px "></div>
+            </a>
+        </div>
+        <script>
+            $('.carousel').carousel({
+                interval: 3700,
+                pause: "true"
+            });
+        </script>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122866044-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'UA-122866044-2');
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 55">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <rect id="Sub_Header_Base" data-name="Sub Header Base" class="cls-1" width="360" height="55"/>
+</svg>

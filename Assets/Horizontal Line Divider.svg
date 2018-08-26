@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 1">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #707070;
+        opacity: 0.1;
+      }
+    </style>
+  </defs>
+  <line id="Horizontal_Line_Divider" data-name="Horizontal Line Divider" class="cls-1" x2="360" transform="translate(0 0.5)"/>
+</svg>
