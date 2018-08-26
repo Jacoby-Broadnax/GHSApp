@@ -1,0 +1,19 @@
+<svg id="outline-school-24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #012395;
+      }
+    </style>
+  </defs>
+  <g id="Bounding_Boxes">
+    <path id="Path_112" data-name="Path 112" class="cls-1" d="M0,0H24V24H0Z"/>
+  </g>
+  <g id="Outline">
+    <path id="Path_113" data-name="Path 113" class="cls-2" d="M12,3,1,9l4,2.18v6L12,21l7-3.82v-6l2-1.09V17h2V9Zm6.82,6L12,12.72,5.18,9,12,5.28ZM17,15.99l-5,2.73L7,15.99V12.27L12,15l5-2.73Z"/>
+  </g>
+</svg>
