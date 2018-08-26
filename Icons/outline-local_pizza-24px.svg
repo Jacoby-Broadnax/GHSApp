@@ -1,0 +1,23 @@
+<svg id="outline-local_pizza-24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #012395;
+      }
+    </style>
+  </defs>
+  <g id="Bounding_Boxes">
+    <path id="Path_124" data-name="Path 124" class="cls-1" d="M0,0H25V25H0Z"/>
+  </g>
+  <g id="Outline" transform="translate(3.135 2.083)">
+    <g id="Group_366" data-name="Group 366">
+      <path id="Path_125" data-name="Path 125" class="cls-2" d="M12.375,2A12.565,12.565,0,0,0,3.01,6.167l9.365,16.667L21.739,6.167A12.585,12.585,0,0,0,12.375,2Zm0,16.583L5.614,6.542a10.525,10.525,0,0,1,13.521,0Z" transform="translate(-3.01 -2)"/>
+      <path id="Path_126" data-name="Path 126" class="cls-2" d="M9.063,5.5a1.562,1.562,0,1,0,1.563,1.563A1.56,1.56,0,0,0,9.063,5.5Z" transform="translate(-2.823 -1.854)"/>
+      <path id="Path_127" data-name="Path 127" class="cls-2" d="M10.5,13.062A1.562,1.562,0,1,0,12.063,11.5,1.56,1.56,0,0,0,10.5,13.062Z" transform="translate(-2.698 -1.604)"/>
+    </g>
+  </g>
+</svg>

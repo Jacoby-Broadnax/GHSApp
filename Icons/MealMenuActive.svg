@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #012395;
+      }
+    </style>
+  </defs>
+  <path id="Meal_Menu_Active" data-name="Meal Menu Active" class="cls-1" d="M11,9H9V2H7V9H5V2H3V9a3.986,3.986,0,0,0,3.75,3.97V22h2.5V12.97A3.986,3.986,0,0,0,13,9V2H11Zm5-3v8h2.5v8H21V2C18.24,2,16,4.24,16,6Z" transform="translate(-3 -2)"/>
+</svg>

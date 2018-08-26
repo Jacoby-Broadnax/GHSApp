@@ -1,0 +1,23 @@
+<svg id="outline-feedback-24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #012395;
+      }
+    </style>
+  </defs>
+  <g id="Bounding_Boxes">
+    <path id="Path_146" data-name="Path 146" class="cls-1" d="M0,0H24V24H0Z"/>
+  </g>
+  <g id="Outline">
+    <g id="Group_4081" data-name="Group 4081">
+      <path id="Path_147" data-name="Path 147" class="cls-2" d="M20,2H4A2,2,0,0,0,2.01,4L2,22l4-4H20a2.006,2.006,0,0,0,2-2V4A2.006,2.006,0,0,0,20,2Zm0,14H5.17l-.59.59L4,17.17V4H20Z"/>
+      <rect id="Rectangle_2071" data-name="Rectangle 2071" class="cls-2" width="2" height="2" transform="translate(11 12)"/>
+      <rect id="Rectangle_2072" data-name="Rectangle 2072" class="cls-2" width="2" height="4" transform="translate(11 6)"/>
+    </g>
+  </g>
+</svg>
