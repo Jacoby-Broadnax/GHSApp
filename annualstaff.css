@@ -1,0 +1,181 @@
+.offers {
+    position: fixed;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    top: 7%;
+    z-index: 56;
+    color: #606060;
+    padding-top: 9px;
+    padding-bottom: 12px;
+    padding-right: 15;
+    padding-left: 15;
+}
+
+.offers:active {
+    background-color: #F1F1F1;
+}
+
+.purchaseicon {
+    position: absolute;
+    top: 570.4px;
+    left: 8%;
+}
+
+.purchasetext {
+    position: absolute;
+    top: 546px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #012395;
+    left: 3.5%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 225.3;
+    padding-left: 47;
+    z-index: 57;
+    border-radius: 50px;
+}
+
+.purchasetext:active {
+    background-color: #F1F1F1;
+    z-index: -1;
+}
+
+.purchasesubtext {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #606060;
+    top: 85%;
+    left: 75%;
+}
+
+.jostinsyearbook {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 14px;
+    top: 562px;
+    font-weight: 400;
+    color: #606060;
+    left: 124px;
+}
+
+.staffsubmenu-base {
+    position: absolute;
+    left: 0%;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+    top: 77.23%;
+}
+
+.annualstaff-logo {
+   
+    border-radius: 10px;
+}
+
+.horizontal-div13 {
+    position: absolute;
+    left: 0px;
+    top: 48.9%;
+}
+
+.socialmedia-header {
+    position: absolute;
+    top: 50%;
+    left: 37%;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #606060;
+}
+
+.staff-instagram {
+    position: absolute;
+    top: 262px;
+    ;
+    left: 31.7%;
+    width: 50px;
+}
+
+.staff-facebook {
+    position: absolute;
+    top: 262px;
+    ;
+    left: 10.7%;
+    width: 50px;
+}
+
+.staff-snapchat {
+    position: absolute;
+    top: 261;
+    left: 52.8%;
+    width: 52px
+}
+
+.staff-twitter {
+    position: absolute;
+    top: 262;
+    left: 75.55%;
+    width: 50px;
+}
+
+.instaembed {
+    position: absolute;
+    top: 18%;
+    left: 0%;
+    width: 360
+}
+
+.annualtext {
+    position: absolute;
+    top: 328px;
+    width: 89%;
+    overflow: scroll;
+    height: 180px;
+    left: 11;
+    line-height: 23px;
+    color: #606060;
+    transition: 0.5s ease;
+    z-index: 15;
+    background-color: white;
+}
+
+.annualtext:hover {
+    z-index: 90;
+    top: 41px;
+    background-color: white;
+    height: 341px;
+    width: 95%;
+    left: 0px;
+    padding-left: 3%;
+    padding-right: 2%;
+    border-radius: 0px;
+    box-shadow: 0px 0px 0px;
+}
+
+.tapindicator {}
+
+.annualtextclose {
+    position: absolute;
+    font-family: sans-serif;
+    top: 430px;
+    color: #012395;
+    font-weight: 400;
+    z-index: 1;
+    left: 38%;
+    font-size: 14px;
+}
+
+.annualtextclose:hover {
+    display: none;
+}
+
+.annualoverflow {
+    z-index: 15;
+}
+
+.staffwrapper {
+    margin: auto; width: 346px;margin-top: 46px
+}

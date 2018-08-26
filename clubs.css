@@ -1,0 +1,84 @@
+.clubbaseimg {
+    position: absolute;
+    left: 0px;
+    top: 53;
+}
+
+.clubbtn1 {
+    position: absolute;
+    top: 53.33%;
+    left: 6.94%;
+}
+
+.clubbtn1text {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    top: 51.5%;
+    left: 17%;
+    color: #012395;
+}
+
+.clubbtn2 {
+    position: absolute;
+    top: 61.46%;
+    left: 6.94%;
+}
+
+.clubsbtntext {
+   
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #012395;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 31%;
+    padding-left: 31%;
+    ;
+    border-radius: 50px;
+    
+
+}
+
+.clubsbtntext:active {
+    background-color: #F1F1F1;
+}
+
+.clubchat {
+    position: absolute;
+    left: 0px;
+    top: 17.39%;
+    z-index: 51;
+}
+
+.nextbtn {
+    position: absolute;
+    top: 17.7%;
+    left: 91%;
+    z-index: 15;
+    width: 9.24px;
+}
+
+.groupsbtn {
+    position: fixed;
+    font-family: sans-serif;
+    font-size: 14px;
+    z-index: 52;
+    font-weight: 400;
+    color: #012395;
+    top: 43px;
+    ;
+    padding-top: 9px;
+    padding-bottom: 12px;
+    padding-right: 15;
+    padding-left: 15;
+}
+
+.groupsbtn:active {
+    background-color: #F1F1F1;
+    border-radius: 50px;
+}
+
+.athleticwrapper {}

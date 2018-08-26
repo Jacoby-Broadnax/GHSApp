@@ -1,0 +1,90 @@
+.athleticheader {
+    position: fixed;
+    top: 42px;
+    left: 0px;
+    width: 100%;
+    ;
+    z-index: 0;
+    border-radius: 0px;
+}
+
+.date {
+    position: absolute;
+    font-family: sans-serif, sans-serif;
+    top: 247px;
+    ;
+    font-size: 14;
+    font-weight: 400;
+    color: #012395;
+    left: 18px;
+}
+
+.opponent {
+    position: absolute;
+    top: 50%;
+    font-family: sans-serif, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: 012395;
+    left: 18px;
+    top: 271.6;
+}
+
+.location {
+    position: absolute;
+    font-family: sans-serif, sans-serif;
+    font-size: 14px;
+    top: 247px;
+    font-weight: 400;
+    color: #898989;
+    right: 15px;
+}
+
+.time {
+    position: absolute;
+    font-family: sans-serif, sans-serif;
+    font-size: 14px;
+    top: 47%;
+    font-weight: 400;
+    color: #898989;
+    right: 15px;
+    top: 272px;
+}
+
+.athleticbase {
+    position: absolute;
+    width: 100%;
+    height: 409px;
+    background-color: white;
+    top: 245px;
+    left: 0px;
+    z-index: 0;
+}
+
+.schedulebtn {
+    position: absolute;
+    font-family: sans-serif;
+    top: 720px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #012395;
+    left: 10%;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 50px;
+    border: solid;
+    border-width: 1px;
+    border-color: #F1F1F1
+}
+
+.schedulebtn:hover {
+    background-color: #F1F1F1
+}
+
+.athleticcalendar {
+    position: absolute;
+    left: 0px;
+    top: 34.6px;
+}

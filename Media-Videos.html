@@ -1,0 +1,139 @@
+<html>
+
+<head>
+    <title>GHS Mobile</title>
+    <link rel="shortcut icon" href="Branding/Main%20Logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta http-equiv="Page-Enter" content="revealTrans(Duration=2.0,Transition=12)">
+    <link rel="stylesheet" href="vivify.min.css">
+    <link rel="stylesheet" href="Media.css">
+    <link rel="manifest" href="manifest.json"> </head>
+
+<body>
+    <header class="header">
+        <div class="dockdiv" style="top: 91.3px"></div> <img class="headerbase" src="Assets/Header%20XL.svg" ;>
+        <h1 class="maintext-page ">Media</h1> <img class="mainicon-page" src="Icons/PlayIconInactive.svg" width="20px"> </header>
+    <div class="subheader">
+        <h1 class="art1text vivify pullUp delay-300">How To Videos</h1>
+        <h1 class="art1subtext vivify popInLeft delay-300" style="left: 115px;">| By Mr.Elward's Class</h1>
+        <div class="scrollmenu">
+            <a href="#">
+                <div><img class="vivify fadeIn delay-100" src="http://via.placeholder.com/130x82"></div>
+            </a>
+            <a href="#">
+                <div><img class=" vivify fadeIn delay-200" src="http://via.placeholder.com/130x82"></div>
+            </a>
+            <a href="#">
+                <div><img class="vivify fadeIn delay-300" src="http://via.placeholder.com/130x82"></div>
+            </a>
+            <a href="#">
+                <div><img class=" vivify fadeIn delay-400" src="http://via.placeholder.com/130x82"></div>
+            </a>
+        </div>
+        <section class="sec1">
+            <div class="video vivify fadeIn delay-150">
+                <h1 class="art1text vivify pullUp delay-300" style="top: -43px">Institutes White Board Video</h1>
+                <div class="video__youtube" data-youtube> <img src="Images/Institutes-Thumbnail-compressor.jpg" class="video__placeholder" />
+                    <button class="video__button" data-youtube-button="https://www.youtube.com/embed/psEqmdkWqPA?ecver=1"></button>
+                </div>
+            </div>
+            <h1 class="art1text vivify pullUp delay-300" style="top: 464px;">Gulfport High Renovated Campus</h1>
+            <h1 class="art1subtext vivify popInLeft delay-300" style="top: 464px; left: 234px;">| BySunherald</h1>
+            <div class="video vivify fadeIn delay-200" style="top: 199px">
+                <div class="video__youtube" data-youtube> <img src="Images/Gulfport%20High%20Renovation%20Thumbnail.jpg" class="video__placeholder" />
+                    <button class="video__button" data-youtube-button="https://www.youtube.com/embed/fINk0IENnk4?ecver=1"></button>
+                </div>
+            </div>
+            <script>
+                (function(window) {
+                    'use strict';
+                    window.code = window.code || {};
+                    window.code.lightweightYoutubePlayer = function() {
+                        var dataYoutubeVideos = '[data-youtube]';
+                        var youtubeVideos = [...document.querySelectorAll(dataYoutubeVideos)];
+
+                        function init() {
+                            youtubeVideos.forEach(function(element) {
+                                bindYoutubeVideoEvent(element);
+                            });
+                        }
+
+                        function bindYoutubeVideoEvent(element) {
+                            var button = element.querySelector('[data-youtube-button]');
+                            button.addEventListener('click', createIframe);
+                        }
+
+                        function createIframe(event) {
+                            var url = event.target.dataset.youtubeButton;
+                            var youtubePlaceholder = event.target.parentNode;
+                            var htmlString = '<div class="video__youtube "> <iframe class="video__iframe " src=" ' + url + '?autoplay=1 " frameborder="0 " allowfullscreen></iframe></div>';
+                            youtubePlaceholder.style.display = 'none';
+                            youtubePlaceholder.insertAdjacentHTML('beforebegin', htmlString);
+                            youtubePlaceholder.parentNode.removeChild(youtubePlaceholder);
+                        }
+                        return {
+                            init: init
+                        }
+                    };
+                })(window)
+                ready();
+
+                function ready() {
+                    var lightweightYoutubePlayer = new code.lightweightYoutubePlayer()
+                    if (document.readyState != 'loading') {
+                        page.init()
+                    } else {
+                        document.addEventListener('DOMContentLoaded', lightweightYoutubePlayer.init);
+                    }
+                }
+
+            </script>
+            <div class="mediamidbarwrapper"> <img class="dockbase" src="Assets/Rectangle%201.svg">
+                <a href="Media-Home.html">
+                    <div>
+                        <h1 class="mediatmidbarbtn" style=" left: 20%; ">Art</h1>
+                    </div>
+                </a>
+                <a href="Media-Music.html">
+                    <div>
+                        <h1 class="mediatmidbarbtn" style="left: 39%;">Music</h1>
+                    </div>
+                </a>
+                <a href="Media-Videos.html">
+                    <div>
+                        <h1 class="mediatmidbarbtn vivify fadeIn delay-100" style="right: 65px;; color:#012395;">Videos</h1>
+                    </div>
+                </a> <img class="indicator vivify pullLeft" src="Assets/Blue%20Indicator%20Mini.svg" width="70px" style="right: 76px;"> </div> <img class="endbasevideo" src="Assets/end-base.svg" width="100%;">
+            <a href="https://goo.gl/forms/WsNyqSYrpxtzFbEV2" target="_blank">
+                <div>
+                    <h1 class="curvybtn" style="top: 719px; padding-right: 85; padding-left: 85px;">Submit Your Video</h1>
+                </div>
+            </a>
+            <div class="dock">
+                <div class="dockdiv"></div> <img class="dockbase" src="Assets/Rectangle%201.svg" ;>
+                <a href="index.html ">
+                    <div class="home"> <img class="homeicon" src="Icons/Home%20Icon%20Inactive.svg" width="33px"> </div>
+                </a>
+                <a href="Groups-Athletics.html">
+                    <div class=""> <img class="athleticicon" src="Icons/Athletic%20Icon%20Inactive.svg" width="48px"> </div>
+                </a>
+                <a href="Media-Home.html ">
+                    <div class="media "> <img class="mediaicon" src="Icons/Media%20Icon%20Active.svg" width="33px "></div>
+                </a>
+            </div>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122866044-2"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+
+                function gtag() {
+                    dataLayer.push(arguments);
+                }
+                gtag('js', new Date());
+                gtag('config', 'UA-122866044-2');
+
+            </script>
+</body>
+
+</html>

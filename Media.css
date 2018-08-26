@@ -1,0 +1,154 @@
+.art1 {
+    position: absolute;
+    left: 0px;
+    top: 138px;
+    z-index: 0;
+    width: 100%;
+    ;
+    transition: 1s ease;
+    max-height: 230px;
+   border-radius: 10px;
+}
+
+.art1text {
+    font-family: sans-serif;
+    position: absolute;
+    top: 94px;
+    font-size: 14px;
+    font-weight: 400;
+    left: 5%;
+    color: #012395;
+}
+
+.art1subtext {
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: 400;
+    top: 94px;
+    font-size: 14px;
+    left: 92px;
+}
+
+.linedivider15 {
+    position: absolute;
+    top: 726 left: 0%;
+}
+
+.mediatmidbarbtn {
+    position: fixed;
+    font-family: sans-serif;
+    font-weight: 400;
+    top: 43px;
+    ;
+    font-size: 14px;
+    z-index: 53;
+    color: #606060;
+    padding-top: 9px;
+    padding-bottom: 12px;
+    padding-right: 15;
+    padding-left: 15;
+}
+
+.mediatmidbarbtn:hover {
+    background-color: #F1F1F1;
+    border-radius: 50px;
+}
+
+.endbaseart {
+    position: absolute;
+    left: 0px;
+    top: 107%;
+}
+
+.endbasevideo {
+    position: absolute;
+    top: 749px;
+    left: 0px;
+}
+
+.artsec {
+    position: absolute;
+    left: 0px;
+    top: 3.4%;
+    z-index: -1
+}
+
+.mediaplacehold {
+    position: absolute;
+    top: 45%;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: #606060;
+    left: 26%;
+}
+
+.video {
+    position: relative;
+    width: 104.6%;
+    top: 124px;
+    left: -8px;
+    max-height: 171px;
+}
+
+.video__iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video__placeholder {
+    width: 100%;
+    position: absolute;
+    top: 0%;
+}
+
+.video__youtube {
+    padding-bottom: 56.23%;
+    width: 100%;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    object-fit: cover;
+    background-color: black;
+}
+
+.video__button {
+    background: none;
+    border: 0;
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    text-indent: -9999px;
+    top: 0;
+    transition: transform 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    width: 100%;
+}
+
+.video__button:before {
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url(youtube-play-dark.svg) no-repeat center center;
+    background-size: 10%;
+}
+
+.video__button:hover:before {
+    background: url(youtube-play-red.svg) no-repeat center center;
+    background-size: 10%;
+}
+
+.liveplace {
+    position: absolute;
+    left: 0px;
+    top: 135px;
+}
+
+

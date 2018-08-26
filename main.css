@@ -1,0 +1,1003 @@
+.subheaderbase {
+    position: absolute;
+    left: 0px;
+    top: 52px;
+    z-index: 35;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.gallery {
+    width: 104.7%;
+    position: fixed;
+    left: -8.7;
+    top: 55px;
+    height: 207px;
+}
+
+.headerbase {
+    z-index: 52;
+    position: fixed;
+    left: 0%;
+    width: 100%;
+    top: 0px;
+    background-image: url(Assets/Rectangle%201.svg);
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.37);
+    max-height: 90px;
+}
+
+.quicklinks {
+    position: absolute;
+    top: 41.5%;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    left: 24.4%;
+    color: #012395;
+    z-index: 15;
+    left: 6%;
+}
+
+.header {
+    z-index: 30;
+}
+
+.maximizebtn {
+    position: absolute;
+    top: 220px;
+    left: 328px;
+}
+
+.highschoolimg {
+    position: absolute;
+    transform: rotate(90deg);
+    top: 25%;
+    width: 190%;
+    left: -45%
+}
+
+.logo {}
+
+.logotext {
+    position: fixed;
+    font-family: sans-serif;
+    color: #012395;
+    left: 52%;
+    top: -2.4%;
+    font-weight: 400
+}
+
+.verticallinediv {
+    position: fixed;
+    z-index: 5;
+    left: 50.7%;
+    top: 389px;
+    ;
+    width: 1px;
+    height: 90px;
+    background-color: #707070;
+    opacity: 0.10;
+}
+
+.baseimg {
+    position: absolute;
+    left: 0px;
+    top: 53px;
+    ;
+    ;
+}
+
+
+/* Dock */
+
+.dockoverflow {
+    white-space: nowrap;
+    position: absolute;
+    width: 360px;
+    height: 126px;
+    z-index: 76;
+}
+
+.imgs {
+    position: absolute;
+    width: 181px;
+    padding-left: 10px;
+    transition: 1s ease;
+    top: 650;
+}
+
+.imgs:hover {
+    top: 626px;
+    width: 102.7%;
+    left: -10px;
+    z-index: 150;
+    position: absolute;
+    box-shadow: 10px 200px 0px 200px rgba(255, 0, 255, 1);
+}
+
+.imgs:hover.dockhead {
+    z-index: 160px;
+}
+
+.midbar {
+    position: fixed;
+    left: 0px;
+    z-index: 49;
+    top: 8%;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.mediaicon {
+    position: fixed;
+    bottom: 0.7%;
+    z-index: 76;
+    left: 4.9%;
+    padding-right: 39px;
+    padding-left: 39px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.mediaicon:active {
+    background: #F1F1F1;
+    border-radius: 50px
+}
+
+.media-text {
+    position: fixed;
+    font-family: sans-serif;
+    font-size: 12px;
+    top: 95.1%;
+    z-index: 76;
+    color: #606060;
+    font-weight: 400;
+    left: 15.4%;
+}
+
+.dockbase {
+    position: fixed;
+    left: 0%;
+    ;
+    bottom: 0%;
+    z-index: 75;
+    width: 100%;
+    background-image: url(Assets/Header%20XL.svg);
+}
+
+.newsicon-inactive {
+    position: fixed;
+    left: 82.4%;
+    top: 93.0%;
+    z-index: 76;
+}
+
+.news-text {
+    position: fixed;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    top: 95.1%;
+    left: 81%;
+    z-index: 300;
+    color: #606060;
+}
+
+.homeicon {
+    position: fixed;
+    bottom: 0.7%;
+    z-index: 76;
+    padding-right: 39px;
+    padding-left: 39px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.homeicon:active {
+    background: #F1F1F1;
+    border-radius: 50px
+}
+
+.hometext {
+    position: fixed;
+    font-size: 12px;
+    color: #012395;
+    top: 90%;
+    z-index: 300;
+    font-family: sans-serif;
+    top: 95.1%;
+    left: 45.5%;
+    font-weight: 400;
+}
+
+.moreicon-inactive {
+    position: fixed;
+    top: 93%;
+    z-index: 75;
+    left: 51.6%;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-bottom: 15px;
+}
+
+.more-text {
+    position: fixed;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #606060;
+    top: 95.1%;
+    z-index: 76;
+    left: 56.7%;
+}
+
+.homesubmenubase {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    left: 0%;
+    top: 41.3%;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Button Check My Grades */
+
+.Eduicon {
+    position: fixed;
+    top: 277px;
+    ;
+    left: 22px;
+    ;
+    z-index: 15;
+}
+
+.edusubtext {
+    position: fixed;
+    top: 261px;
+    left: 10px;
+    font-family: sans-serif;
+    color: #012395;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 26px;
+    padding-right: 0%;
+    padding-left: 44px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+.edusubtext:active {
+    background-color: #F1F1F1
+}
+
+.eduexternal {
+    position: fixed;
+    font-family: sans-serif;
+    font-size: 10;
+    font-weight: 300;
+    top: 293px;
+    left: 54px;
+    color: #606060;
+}
+
+
+/* Button Meal Menu*/
+
+.mealmenuicon {
+    position: fixed;
+    left: 25px;
+    top: 335px;
+    z-index: 15;
+}
+
+.mealtext {
+    position: fixed;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #012395;
+    left: 11px;
+    ;
+    top: 319px;
+    ;
+    padding-top: 8px;
+    padding-bottom: 26px;
+    padding-right: 0px;
+    padding-left: 43px;
+    transition: 85ms ease;
+    border-radius: 60px;
+    width: 82%;
+}
+
+.mealtext:hover {
+    background-color: #F1F1F1;
+    border-radius: 50px;
+}
+
+.horizontaldiv {
+    position: absolute;
+    top: 350.9px;
+    left: 0%;
+    z-index: 51;
+}
+
+
+/*Button Admiral Nation Text */
+
+.admiralnationtext {
+    position: fixed;
+    top: 389px;
+    left: 3%;
+    font-family: sans-serif;
+    color: #606060;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 45px;
+    padding-bottom: 12px;
+    padding-right: 9%;
+    padding-left: 9.1%;
+    z-index: 15;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+.admiralnationtext:active {
+    background-color: #F1F1F1;
+    z-index: 0;
+}
+
+.admiralnationicon {
+    position: fixed;
+    top: 411px;
+    left: 78px;
+    ;
+    z-index: 10;
+}
+
+.organizations-subtext {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    top: 59.9%;
+    left: 6%;
+    color: #606060;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 0;
+}
+
+
+/* Button Annual Staff */
+
+.Annual-icon {
+    position: fixed;
+    top: 412px;
+    left: 71%;
+    z-index: 15;
+}
+
+.Annual-text {
+    position: fixed;
+    top: 389px;
+    left: 55%;
+    font-family: sans-serif;
+    color: #606060;
+    font-weight: 400;
+    font-size: 14px;
+    padding-top: 45px;
+    padding-bottom: 12px;
+    padding-right: 9%;
+    padding-left: 9.1%;
+    z-index: 15;
+    border-radius: 10px;
+    z-index: 0;
+}
+
+.Annual-text:active {
+    background-color: #F1F1F1;
+}
+
+
+/* Meal Menu Section */
+
+.horizontal-div2 {
+    position: absolute;
+    left: 0%;
+    top: 107.5px;
+    z-index: 30;
+}
+
+.mainicon-page {
+    position: fixed;
+    top: 19px;
+    left: 25px;
+    z-index: 52;
+}
+
+.maintext-page {
+    position: fixed;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #012395;
+    top: 10px;
+    left: 62px;
+    z-index: 75;
+}
+
+
+/* Meal Sub Menu */
+
+.lunch-submenu {
+    position: fixed;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #012395;
+    top: 45px;
+    ;
+    left: 108px;
+    z-index: 53;
+    padding-top: 9px;
+    padding-bottom: 12px;
+    padding-right: 15;
+    padding-left: 15;
+}
+
+.lunch-submenu:active {
+    background-color: #F1F1F1;
+    border-radius: 50px;
+}
+
+.breakfast-submenu {
+    position: fixed;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #898989;
+    top: 45px;
+    ;
+    right: 25%;
+    z-index: 53;
+    padding-top: 9px;
+    padding-bottom: 12px;
+    padding-right: 15;
+    padding-left: 15;
+}
+
+.breakfast-submenu:active {
+    background-color: #F1F1F1;
+    border-radius: 50px;
+}
+
+.horizontal-div3 {
+    position: absolute;
+    top: 136.5px;
+    left: 0px;
+}
+
+.mealmenuscroll {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    width: 121%;
+    border-color: white;
+    align-content: center;
+}
+
+.subscroll {
+    position: relative;
+    top: 3%;
+    left: -67;
+}
+
+.horizontalmenu {
+    transition: 1s ease;
+    width: 221%;
+    margin: auto;
+}
+
+.horizontalmenu:hover {
+    width: 400%;
+}
+
+horizontal-div4 {
+    position: absolute;
+    top: 120px;
+    z-index: 50;
+}
+
+.backbtn {
+    position: fixed;
+    z-index: 52;
+    left: 0px;
+    ;
+    width: 37px;
+    top: -1px;
+    padding-right: 51px;
+    ;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 13px;
+}
+
+.backbtnmeal:active {
+    content: url ('Icons/Meal%20Menu%20Active.svg');
+}
+
+.fullimage {
+    position: absolute;
+    left: 0px;
+    top: 107px;
+    z-index: -5;
+}
+
+.moresubheader {
+    position: absolute;
+    left: 0px;
+    top: 52px;
+    z-index: 0;
+}
+
+.environmentalicon {
+    position: absolute;
+    top: 510px;
+    left: 22px;
+}
+
+
+/*------More Menu------*/
+
+.artlogo {
+    position: absolute;
+    top: 20.81%;
+    left: 7.77%;
+}
+
+.artbtntext {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 14px;
+    top: 19.5%;
+    font-weight: 400;
+    color: #012395;
+    left: 15%;
+}
+
+.clubsbtntext {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #012395;
+    left: 45%;
+    font-size: 14px;
+    text-align: center;
+    z-index: 15
+}
+
+.qrcode {
+    position: absolute;
+    top: 170px;
+    left: 22%;
+    ;
+}
+
+.indicator {
+    position: fixed;
+    z-index: 54;
+    top: 89px;
+    width: 51px;
+    height: 2.3px;
+    background-color: #012395;
+}
+
+
+/*------IPhone 6/7/8-------*/
+
+@media only screen and (min-width:365px) {
+    .headerbase {
+        left: -7%;
+        width: 107%;
+        max-height: 90px;
+        background-image: url(Assets/Iphone%20Header.svg);
+        min-height: 84px;
+    }
+    .Chalkableframe {
+        top: 50%;
+    }
+    .dockbase {
+        position: fixed;
+        top: 92%;
+    }
+    .dock
+}
+
+@media only screen and (max-width:360px).navigator {
+    background-image: url(Icons/ic_expand_more_24px.svg);
+    position: fixed;
+    width: 7.4px;
+    height: 11px;
+    top: 291;
+    left: 90%;
+    ;
+}
+
+.expandbtn {
+    position: fixed;
+    top: 544px;
+    left: 48.7%;
+    width: 13px;
+}
+
+.dockpopbtn {
+    position: fixed;
+    font-family: sans-serif, sans-serif;
+    top: 539;
+    font-size: 12px;
+    font-weight: 400px;
+    left: 48%;
+    color: #012395;
+}
+
+.vid1 {
+    width: 50px;
+    height: 50px;
+}
+
+label {
+    z-index: 75;
+}
+
+#toggle:checked + img {
+    display: none;
+}
+
+.dockhead {
+    position: absolute;
+    z-index: 76;
+    top: 625px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #012395;
+    left: 45%;
+}
+
+.indicator;
+    {
+    width: 50px;
+}
+
+.splashscreen {
+    position: absolute;
+    width: 34%;
+    z-index: 340;
+    top: 251px;
+    left: 32%;
+}
+
+.splashbase {
+    position: absolute;
+    background-image: url(Assets/Splash%20Base.svg);
+    z-index: 339;
+    width: 100%;
+    height: 100%;
+    border: solid;
+    border-color: white;
+}
+
+.tapindicator {
+    position: absolute;
+    z-index: 150;
+    width: 17px;
+    top: 395px;
+    left: 87%;
+}
+
+.alerttext {
+    position: fixed;
+    font-family: sans-serif;
+    z-index: 52;
+    font-size: 14px;
+    font-weight: 400;
+    color: #898989;
+    top: 10px;
+    right: 7%;
+    ;
+}
+
+.scroller {
+    font-family: sans-serif;
+    color: white;
+    position: fixed;
+    top: 233px;
+    font-size: 14px;
+    z-index: 45;
+    font-weight: 400;
+    left: 0px;
+}
+
+.qrtxt {
+    position: absolute;
+    top: 542px;
+    font-size: 21px;
+    left: 37%;
+    font-family: sans-serif, roboto;
+}
+
+.qrsubtxt {
+    position: absolute;
+    font-size: 14px;
+    top: 570px;
+    color: #606060;
+    left: 42.7%;
+    font-family: sans-serif, roboto;
+    font-weight: 400;
+}
+
+.curvybtn {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #012395;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 50px;
+    border: solid;
+    border-width: 1px;
+    border-color: #F1F1F1;
+    z-index: 20;
+}
+
+.curvybtn:active {
+    background-color: #F1F1F1
+}
+
+.swipeup {
+    position: absolute;
+    top: 517px;
+    left: 46%;
+    font-family: sans-serif, roboto;
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.athleticicon {
+    position: fixed;
+    bottom: 0.7%;
+    z-index: 76;
+    right: 4%;
+    padding-right: 33px;
+    padding-left: 33px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.athleticicon:active {
+    background: #f1f1f1;
+    border-radius: 50px;
+}
+
+.moredetailimg {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 53px;
+    max-height: 209px;
+}
+
+.moredetailtxt {
+    position: absolute;
+    top: 257px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    width: 91%;
+    left: 17px;
+    color: #606060;
+    line-height: 25px;
+}
+
+.dockdiv {
+    position: fixed;
+    background-color: #707070;
+    width: 100%;
+    left: 0px;
+    height: 0.7px;
+    top: 91.2%;
+    z-index: 75;
+    opacity: 0.1;
+    display: none
+}
+
+.closebtn {
+    position: fixed;
+    width: 18px;
+    left: 21px;
+    top: 21px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+}
+
+.closebtn:active {
+    background: #f1f1f1;
+}
+
+.splashtxt {
+    position: absolute;
+    font-family: sans-serif;
+    ;
+    font-size: 14px;
+    color: #E0E0E0;
+    font-weight: 400;
+    z-index: 350;
+}
+
+.alerticon {
+    position: absolute;
+    background: red;
+    width: 9px;
+    height: 9px;
+    border-radius: 20px;
+    bottom: 6%;
+    ;
+    z-index: 85;
+    left: 23%;
+}
+
+.calender {
+    margin: auto;
+    width: 360px;
+    margin-top: 175%;
+}
+
+.feedbackicon {
+    position: fixed;
+    right: 9%;
+    bottom: 10%;
+    width: 50px;
+    background-color: white;
+    border-radius: 35px;
+    box-shadow: -1px 2px 8px 0px rgba(0, 0, 0, 0.23);
+    padding: 5;
+    z-index: 50;
+}
+
+.feedbackicon:active {
+    box-shadow: 0px 0px 0px;
+}
+
+.form {
+    position: absolute;
+    top: 54px;
+    left: 0px;
+}
+
+.mealmenu {
+    position: absolute;
+    left: 0px;
+}
+
+.search {
+    position: fixed;
+    top: 8px;
+    width: 262px;
+    height: 41px;
+    left: 59px;
+    border-radius: 22px;
+    color: #012395;
+    border: none;
+    border-width: 1.5;
+    border-color: #D3D3D3;
+    outline: none;
+    text-decoration: none;
+    z-index: 56;
+}
+
+.searchmenu {
+    text-decoration: none;
+}
+
+#myMenu {
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 34px;
+    margin: auto;
+    width: 262px;
+    margin-top: 56px;
+    margin-left: 8px;
+}
+
+#myMenu > li > a {
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #012395;
+    outline: none;
+}
+
+.searchicon {
+    position: fixed;
+    width: 17.49px;
+    z-index: 56;
+    right: 0%;
+    ;
+    top: 3px;
+    padding: 16px 26px 16px 51px;
+}
+
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    margin-top: 133px;
+    margin-bottom: -82px;
+    margin-left: 0px;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 3px;
+}
+
+.lefticon {
+    position: absolute;
+    top: 4px;
+    z-index: 54;
+    left: -6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 9;
+    padding-bottom: 9px;
+}
+
+.splashcenter {
+    margin: auto;
+    width: 190px;
+    margin-top: 157%;
+    ;
+}
+
+.logowrapper {
+    margin: auto;
+    width: 55px;
+    margin-top: 11px;
+}
+
+.home {
+    margin: auto;
+    width: 114px;
+}
+
+.athleticlist {
+    margin: auto;
+    width: 191px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.curvywrapper {
+    margin: auto;
+    width: 296px;
+    margin-top: 1192px;
+}
+
+.endbase {
+    z-index: -5;
+}
+
+

@@ -1,0 +1,10 @@
+body {
+    background: #212121;
+}
+
+.headerbase {
+    background-color: #212121;
+    height: 55px;
+    background-image: url(Assets/Dark%20Mode%20Headerbase.svg)
+}
+
