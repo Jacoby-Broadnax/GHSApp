@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 360 472">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Meal_Menu_Breakfast_Week_1_);
+      }
+
+      .cls-2 {
+        fill: #012395;
+      }
+
+      .cls-2, .cls-3 {
+        font-size: 14px;
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-3 {
+        fill: #606060;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #000;
+        stroke-width: 0.3px;
+        opacity: 0.1;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+    </style>
+    <clipPath id="clip-Meal_Menu_Breakfast_Week_1_">
+      <rect width="360" height="472"/>
+    </clipPath>
+  </defs>
+  <g id="Meal_Menu_Breakfast_Week_1_" data-name="Meal Menu Breakfast Week 1 " class="cls-1">
+    <rect class="cls-5" width="360" height="472"/>
+    <text id="Monday_August_20th" data-name="Monday, August 20th" class="cls-2" transform="translate(22.063 15.15)"><tspan x="0" y="13">Monday, August 20th</tspan></text>
+    <text id="Tuesday_August_21st" data-name="Tuesday, August 21st" class="cls-2" transform="translate(22.063 113.15)"><tspan x="0" y="13">Tuesday, August 21st</tspan></text>
+    <text id="Wednesday_August_22nd" data-name="Wednesday, August 22nd" class="cls-2" transform="translate(22.063 208.15)"><tspan x="0" y="13">Wednesday, August 22nd</tspan></text>
+    <text id="Thursday_August_23rd" data-name="Thursday, August 23rd" class="cls-2" transform="translate(22.063 297.15)"><tspan x="0" y="13">Thursday, August 23rd</tspan></text>
+    <text id="Friday_August_24th" data-name="Friday, August 24th" class="cls-2" transform="translate(22.063 386.15)"><tspan x="0" y="13">Friday, August 24th</tspan></text>
+    <text id="Muffins_Yogurt_Assorted_Cereal_Fresh_Fruit_Cup_Assorted_Fruit_Juice_Milk" data-name="Muffins &amp; Yogurt Assorted Cereal Fresh Fruit Cup Assorted Fruit Juice Milk" class="cls-3" transform="translate(23.063 41.15)"><tspan x="0" y="13">Muffins &amp; Yogurt Assorted Cereal Fresh </tspan><tspan x="0" y="30">Fruit Cup Assorted Fruit Juice Milk</tspan></text>
+    <text id="Pancake_on_a_Stick_Assorted_Cereal_Summer_Peaches_Assorted_Fruit_Juice_Milk_" data-name="Pancake on a Stick Assorted Cereal Summer Peaches Assorted Fruit Juice Milk 
+ " class="cls-3" transform="translate(23.063 139.15)"><tspan x="0" y="13">Pancake on a Stick Assorted Cereal Summer </tspan><tspan x="0" y="30">Peaches Assorted Fruit Juice Milk </tspan></text>
+    <text id="Cheesy_Grits_Assorted_Cereals_Fresh_Fruit_Cup_Assorted_Fruit_Juice_Milk" data-name="Cheesy Grits Assorted Cereals Fresh Fruit Cup Assorted Fruit Juice Milk" class="cls-3" transform="translate(23.063 234.15)"><tspan x="0" y="13">Cheesy Grits Assorted Cereals Fresh Fruit Cup </tspan><tspan x="0" y="30">Assorted Fruit Juice Milk</tspan></text>
+    <text id="Mini_Cinnis_Assorted_Cereal_Fresh_Fruit_Assorted_Fruit_Juice_Milk_" data-name="Mini Cinnis Assorted Cereal Fresh Fruit Assorted Fruit Juice Milk 
+ " class="cls-3" transform="translate(23.063 323.15)"><tspan x="0" y="13">Mini Cinnis Assorted Cereal Fresh Fruit Assorted </tspan><tspan x="0" y="30">Fruit Juice Milk </tspan></text>
+    <text id="Breakfast_Sliders_Assorted_Cereal_Fresh_Nectarines_Assorted_Fruit_Juice_Milk_" data-name="Breakfast Sliders Assorted Cereal Fresh Nectarines Assorted Fruit Juice Milk " class="cls-3" transform="translate(22.063 412.15)"><tspan x="0" y="13">Breakfast Sliders Assorted Cereal Fresh </tspan><tspan x="0" y="30">Nectarines Assorted Fruit Juice Milk </tspan></text>
+    <line id="Line_81" data-name="Line 81" class="cls-4" x2="360" transform="translate(0.5 97.5)"/>
+    <line id="Line_83" data-name="Line 83" class="cls-4" x2="360" transform="translate(0.5 192.5)"/>
+    <line id="Line_85" data-name="Line 85" class="cls-4" x2="360" transform="translate(0.5 281.5)"/>
+    <line id="Line_86" data-name="Line 86" class="cls-4" x2="360" transform="translate(0.5 370.5)"/>
+  </g>
+</svg>
