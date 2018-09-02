@@ -1,14 +1,3 @@
-.subheaderbase {
-    position: absolute;
-    left: 0px;
-    top: 52px;
-    z-index: 35;
-}
-
-::-webkit-scrollbar {
-    display: none;
-}
-
 a {
     text-decoration: none;
 }
@@ -16,7 +5,7 @@ a {
 .gallery {
     width: 104.7%;
     position: fixed;
-    left: -8.7;
+    left: -8.7px;
     top: 55px;
     height: 207px;
 }
@@ -27,9 +16,9 @@ a {
     left: 0%;
     width: 100%;
     top: 0px;
-    background-image: url(Assets/Rectangle%201.svg);
-    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.37);
+    box-shadow: rgba(0, 0, 0, 0.368627) 0px 0px 2px 0px;
     max-height: 90px;
+    background-image: url("Assets/Rectangle%201.svg");
 }
 
 .quicklinks {
@@ -38,14 +27,9 @@ a {
     font-family: sans-serif;
     font-weight: 400;
     font-size: 10px;
-    left: 24.4%;
-    color: #012395;
+    color: rgb(1, 35, 149);
     z-index: 15;
     left: 6%;
-}
-
-.header {
-    z-index: 30;
 }
 
 .maximizebtn {
@@ -54,12 +38,16 @@ a {
     left: 328px;
 }
 
+.header {
+    z-index: 30;
+}
+
 .highschoolimg {
     position: absolute;
     transform: rotate(90deg);
     top: 25%;
     width: 190%;
-    left: -45%
+    left: -45%;
 }
 
 .logo {}
@@ -67,10 +55,10 @@ a {
 .logotext {
     position: fixed;
     font-family: sans-serif;
-    color: #012395;
+    color: rgb(1, 35, 149);
     left: 52%;
     top: -2.4%;
-    font-weight: 400
+    font-weight: 400;
 }
 
 .verticallinediv {
@@ -78,23 +66,17 @@ a {
     z-index: 5;
     left: 50.7%;
     top: 389px;
-    ;
     width: 1px;
     height: 90px;
-    background-color: #707070;
-    opacity: 0.10;
+    opacity: 0.1;
+    background-color: rgb(112, 112, 112);
 }
 
 .baseimg {
     position: absolute;
     left: 0px;
     top: 53px;
-    ;
-    ;
 }
-
-
-/* Dock */
 
 .dockoverflow {
     white-space: nowrap;
@@ -109,7 +91,7 @@ a {
     width: 181px;
     padding-left: 10px;
     transition: 1s ease;
-    top: 650;
+    top: 650px;
 }
 
 .imgs:hover {
@@ -118,19 +100,17 @@ a {
     left: -10px;
     z-index: 150;
     position: absolute;
-    box-shadow: 10px 200px 0px 200px rgba(255, 0, 255, 1);
+    box-shadow: rgb(255, 0, 255) 10px 200px 0px 200px;
 }
 
-.imgs:hover.dockhead {
-    z-index: 160px;
-}
+.imgs:hover.dockhead {}
 
 .midbar {
     position: fixed;
     left: 0px;
     z-index: 49;
     top: 8%;
-    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 3px 0px;
     width: 100%;
 }
 
@@ -139,15 +119,12 @@ a {
     bottom: 0.7%;
     z-index: 76;
     left: 4.9%;
-    padding-right: 39px;
-    padding-left: 39px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding: 5px 39px;
 }
 
 .mediaicon:active {
-    background: #F1F1F1;
-    border-radius: 50px
+    border-radius: 50px;
+    background: rgb(241, 241, 241);
 }
 
 .media-text {
@@ -156,7 +133,7 @@ a {
     font-size: 12px;
     top: 95.1%;
     z-index: 76;
-    color: #606060;
+    color: rgb(96, 96, 96);
     font-weight: 400;
     left: 15.4%;
 }
@@ -164,17 +141,16 @@ a {
 .dockbase {
     position: fixed;
     left: 0%;
-    ;
     bottom: 0%;
     z-index: 75;
     width: 100%;
-    background-image: url(Assets/Header%20XL.svg);
+    background-image: url("Assets/Header%20XL.svg");
 }
 
 .newsicon-inactive {
     position: fixed;
     left: 82.4%;
-    top: 93.0%;
+    top: 93%;
     z-index: 76;
 }
 
@@ -186,29 +162,25 @@ a {
     top: 95.1%;
     left: 81%;
     z-index: 300;
-    color: #606060;
+    color: rgb(96, 96, 96);
 }
 
 .homeicon {
     position: fixed;
     bottom: 0.7%;
     z-index: 76;
-    padding-right: 39px;
-    padding-left: 39px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding: 5px 39px;
 }
 
 .homeicon:active {
-    background: #F1F1F1;
-    border-radius: 50px
+    border-radius: 50px;
+    background: rgb(241, 241, 241);
 }
 
 .hometext {
     position: fixed;
     font-size: 12px;
-    color: #012395;
-    top: 90%;
+    color: rgb(1, 35, 149);
     z-index: 300;
     font-family: sans-serif;
     top: 95.1%;
@@ -231,7 +203,7 @@ a {
     font-family: sans-serif;
     font-size: 12px;
     font-weight: 400;
-    color: #606060;
+    color: rgb(96, 96, 96);
     top: 95.1%;
     z-index: 76;
     left: 56.7%;
@@ -241,21 +213,16 @@ a {
     position: absolute;
     width: 100%;
     height: 50px;
-    background-color: white;
     left: 0%;
     top: 41.3%;
-    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 3px 0px;
+    background-color: white;
 }
-
-
-/* Button Check My Grades */
 
 .Eduicon {
     position: fixed;
     top: 277px;
-    ;
     left: 22px;
-    ;
     z-index: 15;
 }
 
@@ -264,33 +231,27 @@ a {
     top: 261px;
     left: 10px;
     font-family: sans-serif;
-    color: #012395;
+    color: rgb(1, 35, 149);
     font-weight: 400;
     font-size: 14px;
-    padding-top: 8px;
-    padding-bottom: 26px;
-    padding-right: 0%;
-    padding-left: 44px;
-    background-color: white;
+    padding: 8px 0% 26px 44px;
     border-radius: 50px;
+    background-color: white;
 }
 
 .edusubtext:active {
-    background-color: #F1F1F1
+    background-color: rgb(241, 241, 241);
 }
 
 .eduexternal {
     position: fixed;
     font-family: sans-serif;
-    font-size: 10;
+    font-size: 10px;
     font-weight: 300;
     top: 293px;
     left: 54px;
-    color: #606060;
+    color: rgb(96, 96, 96);
 }
-
-
-/* Button Meal Menu*/
 
 .mealmenuicon {
     position: fixed;
@@ -304,23 +265,18 @@ a {
     font-family: sans-serif;
     font-size: 14px;
     font-weight: 400;
-    color: #012395;
+    color: rgb(1, 35, 149);
     left: 11px;
-    ;
     top: 319px;
-    ;
-    padding-top: 8px;
-    padding-bottom: 26px;
-    padding-right: 0px;
-    padding-left: 43px;
+    padding: 8px 0px 26px 43px;
     transition: 85ms ease;
     border-radius: 60px;
     width: 82%;
 }
 
 .mealtext:hover {
-    background-color: #F1F1F1;
     border-radius: 50px;
+    background-color: rgb(241, 241, 241);
 }
 
 .horizontaldiv {
@@ -330,36 +286,28 @@ a {
     z-index: 51;
 }
 
-
-/*Button Admiral Nation Text */
-
 .admiralnationtext {
     position: fixed;
     top: 389px;
     left: 3%;
     font-family: sans-serif;
-    color: #606060;
+    color: rgb(96, 96, 96);
     font-weight: 400;
     font-size: 14px;
-    padding-top: 45px;
-    padding-bottom: 12px;
-    padding-right: 9%;
-    padding-left: 9.1%;
-    z-index: 15;
+    padding: 45px 9% 12px 9.1%;
     border-radius: 10px;
     z-index: 0;
 }
 
 .admiralnationtext:active {
-    background-color: #F1F1F1;
     z-index: 0;
+    background-color: rgb(241, 241, 241);
 }
 
 .admiralnationicon {
     position: fixed;
     top: 411px;
     left: 78px;
-    ;
     z-index: 10;
 }
 
@@ -370,14 +318,11 @@ a {
     font-weight: 400;
     top: 59.9%;
     left: 6%;
-    color: #606060;
+    color: rgb(96, 96, 96);
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-right: 0;
+    padding-right: 0px;
 }
-
-
-/* Button Annual Staff */
 
 .Annual-icon {
     position: fixed;
@@ -391,24 +336,17 @@ a {
     top: 389px;
     left: 55%;
     font-family: sans-serif;
-    color: #606060;
+    color: rgb(96, 96, 96);
     font-weight: 400;
     font-size: 14px;
-    padding-top: 45px;
-    padding-bottom: 12px;
-    padding-right: 9%;
-    padding-left: 9.1%;
-    z-index: 15;
+    padding: 45px 9% 12px 9.1%;
     border-radius: 10px;
     z-index: 0;
 }
 
 .Annual-text:active {
-    background-color: #F1F1F1;
+    background-color: rgb(241, 241, 241);
 }
-
-
-/* Meal Menu Section */
 
 .horizontal-div2 {
     position: absolute;
@@ -429,34 +367,27 @@ a {
     font-size: 14px;
     font-family: sans-serif;
     font-weight: 400;
-    color: #012395;
+    color: rgb(1, 35, 149);
     top: 10px;
     left: 62px;
     z-index: 75;
 }
-
-
-/* Meal Sub Menu */
 
 .lunch-submenu {
     position: fixed;
     font-family: sans-serif;
     font-size: 14px;
     font-weight: 400;
-    color: #012395;
+    color: rgb(1, 35, 149);
     top: 45px;
-    ;
     left: 108px;
     z-index: 53;
-    padding-top: 9px;
-    padding-bottom: 12px;
-    padding-right: 15;
-    padding-left: 15;
+    padding: 9px 15px 12px;
 }
 
 .lunch-submenu:active {
-    background-color: #F1F1F1;
     border-radius: 50px;
+    background-color: rgb(241, 241, 241);
 }
 
 .breakfast-submenu {
@@ -464,20 +395,16 @@ a {
     font-family: sans-serif;
     font-size: 14px;
     font-weight: 400;
-    color: #898989;
+    color: rgb(137, 137, 137);
     top: 45px;
-    ;
     right: 25%;
     z-index: 53;
-    padding-top: 9px;
-    padding-bottom: 12px;
-    padding-right: 15;
-    padding-left: 15;
+    padding: 9px 15px 12px;
 }
 
 .breakfast-submenu:active {
-    background-color: #F1F1F1;
     border-radius: 50px;
+    background-color: rgb(241, 241, 241);
 }
 
 .horizontal-div3 {
@@ -487,18 +414,18 @@ a {
 }
 
 .mealmenuscroll {
-    background-color: white;
     overflow: auto;
     white-space: nowrap;
     width: 121%;
     border-color: white;
     align-content: center;
+    background-color: white;
 }
 
 .subscroll {
     position: relative;
     top: 3%;
-    left: -67;
+    left: -67px;
 }
 
 .horizontalmenu {
@@ -521,19 +448,12 @@ horizontal-div4 {
     position: fixed;
     z-index: 52;
     left: 0px;
-    ;
     width: 37px;
     top: -1px;
-    padding-right: 51px;
-    ;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    padding-left: 13px;
+    padding: 9px 51px 9px 13px;
 }
 
-.backbtnmeal:active {
-    content: url ('Icons/Meal%20Menu%20Active.svg');
-}
+.backbtnmeal:active {}
 
 .fullimage {
     position: absolute;
@@ -555,9 +475,6 @@ horizontal-div4 {
     left: 22px;
 }
 
-
-/*------More Menu------*/
-
 .artlogo {
     position: absolute;
     top: 20.81%;
@@ -570,25 +487,24 @@ horizontal-div4 {
     font-size: 14px;
     top: 19.5%;
     font-weight: 400;
-    color: #012395;
+    color: rgb(1, 35, 149);
     left: 15%;
 }
 
 .clubsbtntext {
     font-family: sans-serif;
     font-weight: 400;
-    color: #012395;
+    color: rgb(1, 35, 149);
     left: 45%;
     font-size: 14px;
     text-align: center;
-    z-index: 15
+    z-index: 15;
 }
 
 .qrcode {
     position: absolute;
     top: 170px;
     left: 22%;
-    ;
 }
 
 .indicator {
@@ -597,19 +513,16 @@ horizontal-div4 {
     top: 89px;
     width: 51px;
     height: 2.3px;
-    background-color: #012395;
+    background-color: rgb(1, 35, 149);
 }
 
-
-/*------IPhone 6/7/8-------*/
-
-@media only screen and (min-width:365px) {
+@media only screen and (min-width: 365px) {
     .headerbase {
         left: -7%;
         width: 107%;
         max-height: 90px;
-        background-image: url(Assets/Iphone%20Header.svg);
         min-height: 84px;
+        background-image: url("Assets/Iphone%20Header.svg");
     }
     .Chalkableframe {
         top: 50%;
@@ -618,18 +531,9 @@ horizontal-div4 {
         position: fixed;
         top: 92%;
     }
-    .dock
 }
 
-@media only screen and (max-width:360px).navigator {
-    background-image: url(Icons/ic_expand_more_24px.svg);
-    position: fixed;
-    width: 7.4px;
-    height: 11px;
-    top: 291;
-    left: 90%;
-    ;
-}
+@media not all {}
 
 .expandbtn {
     position: fixed;
@@ -641,11 +545,10 @@ horizontal-div4 {
 .dockpopbtn {
     position: fixed;
     font-family: sans-serif, sans-serif;
-    top: 539;
+    top: 539px;
     font-size: 12px;
-    font-weight: 400px;
     left: 48%;
-    color: #012395;
+    color: rgb(1, 35, 149);
 }
 
 .vid1 {
@@ -667,13 +570,8 @@ label {
     top: 625px;
     font-size: 13px;
     font-weight: 400;
-    color: #012395;
+    color: rgb(1, 35, 149);
     left: 45%;
-}
-
-.indicator;
-    {
-    width: 50px;
 }
 
 .splashscreen {
@@ -686,12 +584,11 @@ label {
 
 .splashbase {
     position: absolute;
-    background-image: url(Assets/Splash%20Base.svg);
     z-index: 339;
     width: 100%;
     height: 100%;
-    border: solid;
-    border-color: white;
+    border: solid white;
+    background-image: url("Assets/Splash%20Base.svg");
 }
 
 .tapindicator {
@@ -708,10 +605,9 @@ label {
     z-index: 52;
     font-size: 14px;
     font-weight: 400;
-    color: #898989;
+    color: rgb(137, 137, 137);
     top: 10px;
     right: 7%;
-    ;
 }
 
 .scroller {
@@ -737,7 +633,7 @@ label {
     position: absolute;
     font-size: 14px;
     top: 570px;
-    color: #606060;
+    color: rgb(96, 96, 96);
     left: 42.7%;
     font-family: sans-serif, roboto;
     font-weight: 400;
@@ -747,20 +643,15 @@ label {
     font-family: sans-serif;
     font-weight: 400;
     font-size: 14px;
-    color: #012395;
-    padding-right: 80px;
-    padding-left: 80px;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    color: rgb(1, 35, 149);
+    padding: 16px 80px;
     border-radius: 50px;
-    border: solid;
-    border-width: 1px;
-    border-color: #F1F1F1;
+    border: 1px solid rgb(241, 241, 241);
     z-index: 20;
 }
 
 .curvybtn:active {
-    background-color: #F1F1F1
+    background-color: rgb(241, 241, 241);
 }
 
 .swipeup {
@@ -777,15 +668,12 @@ label {
     bottom: 0.7%;
     z-index: 76;
     right: 4%;
-    padding-right: 33px;
-    padding-left: 33px;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding: 5px 33px;
 }
 
 .athleticicon:active {
-    background: #f1f1f1;
     border-radius: 50px;
+    background: rgb(241, 241, 241);
 }
 
 .moredetailimg {
@@ -804,20 +692,20 @@ label {
     font-size: 14px;
     width: 91%;
     left: 17px;
-    color: #606060;
+    color: rgb(96, 96, 96);
     line-height: 25px;
 }
 
 .dockdiv {
     position: fixed;
-    background-color: #707070;
     width: 100%;
     left: 0px;
     height: 0.7px;
     top: 91.2%;
     z-index: 75;
     opacity: 0.1;
-    display: none
+    display: none;
+    background-color: rgb(112, 112, 112);
 }
 
 .closebtn {
@@ -825,43 +713,37 @@ label {
     width: 18px;
     left: 21px;
     top: 21px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 10px;
     border-radius: 50px;
 }
 
 .closebtn:active {
-    background: #f1f1f1;
+    background: rgb(241, 241, 241);
 }
 
 .splashtxt {
     position: absolute;
     font-family: sans-serif;
-    ;
     font-size: 14px;
-    color: #E0E0E0;
+    color: rgb(224, 224, 224);
     font-weight: 400;
     z-index: 350;
 }
 
 .alerticon {
     position: absolute;
-    background: red;
     width: 9px;
     height: 9px;
     border-radius: 20px;
     bottom: 6%;
-    ;
     z-index: 85;
     left: 23%;
+    background: red;
 }
 
 .calender {
-    margin: auto;
+    margin: 175% auto auto;
     width: 360px;
-    margin-top: 175%;
 }
 
 .feedbackicon {
@@ -869,11 +751,11 @@ label {
     right: 9%;
     bottom: 10%;
     width: 50px;
-    background-color: white;
     border-radius: 35px;
-    box-shadow: -1px 2px 8px 0px rgba(0, 0, 0, 0.23);
-    padding: 5;
+    box-shadow: rgba(0, 0, 0, 0.227451) -1px 2px 8px 0px;
+    padding: 5px;
     z-index: 50;
+    background-color: white;
 }
 
 .feedbackicon:active {
@@ -898,10 +780,8 @@ label {
     height: 41px;
     left: 59px;
     border-radius: 22px;
-    color: #012395;
-    border: none;
-    border-width: 1.5;
-    border-color: #D3D3D3;
+    color: rgb(1, 35, 149);
+    border: 1.5px none rgb(211, 211, 211);
     outline: none;
     text-decoration: none;
     z-index: 56;
@@ -915,16 +795,14 @@ label {
     text-decoration: none;
     list-style-type: none;
     line-height: 34px;
-    margin: auto;
+    margin: 56px auto auto 8px;
     width: 262px;
-    margin-top: 56px;
-    margin-left: 8px;
 }
 
 #myMenu > li > a {
     font-family: sans-serif;
     font-size: 14px;
-    color: #012395;
+    color: rgb(1, 35, 149);
     outline: none;
 }
 
@@ -933,7 +811,6 @@ label {
     width: 17.49px;
     z-index: 56;
     right: 0%;
-    ;
     top: 3px;
     padding: 16px 26px 16px 51px;
 }
@@ -959,23 +836,17 @@ div.scrollmenu a {
     top: 4px;
     z-index: 54;
     left: -6px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 9;
-    padding-bottom: 9px;
+    padding: 9px 30px;
 }
 
 .splashcenter {
-    margin: auto;
+    margin: 157% auto auto;
     width: 190px;
-    margin-top: 157%;
-    ;
 }
 
 .logowrapper {
-    margin: auto;
+    margin: 11px auto auto;
     width: 55px;
-    margin-top: 11px;
 }
 
 .home {
@@ -991,13 +862,13 @@ div.scrollmenu a {
 }
 
 .curvywrapper {
-    margin: auto;
+    margin: 1192px auto auto;
     width: 296px;
-    margin-top: 1192px;
 }
 
 .endbase {
     z-index: -5;
 }
-
-
+.specdiv {
+    position: absolute; width: 100%; height:0.5px; background-color: black; left: 0px;opacity: 0.3
+}

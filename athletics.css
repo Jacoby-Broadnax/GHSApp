@@ -86,5 +86,6 @@
 .athleticcalendar {
     position: absolute;
     left: 0px;
-    top: 34.6px;
+    top: 93.2px;
+    z-index: 0;
 }
