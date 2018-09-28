@@ -7,7 +7,7 @@
     ;
     transition: 1s ease;
     max-height: 230px;
-   border-radius: 10px;
+    border-radius: 10px;
 }
 
 .art1text {
@@ -99,6 +99,12 @@
     height: 100%;
 }
 
+.stream {
+    width: 100%;
+    margin-top: 90px;
+    height: 193px;
+}
+
 .video__placeholder {
     width: 100%;
     position: absolute;
@@ -150,5 +156,3 @@
     left: 0px;
     top: 135px;
 }
-
-
