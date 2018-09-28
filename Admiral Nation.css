@@ -26,6 +26,18 @@
     z-index: 51;
 }
 
+.shoplist {
+    margin: auto;
+    width: 303px;
+    margin-top: 106px;
+}
+
+.shoplist > div > img {
+    width: 300px;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 3px 0px;
+}
+
 .hats-submenu {
     position: fixed;
     font-family: sans-serif;
@@ -89,8 +101,6 @@
     padding-bottom: 12px;
     padding-right: 15;
     padding-left: 15;
-
-
 }
 
 .bottoms-submenu:active {
@@ -99,7 +109,6 @@
 }
 
 .menuscroll-tops {
-
     position: absolute;
     border-radius: 10px;
     width: 154px;
@@ -112,8 +121,6 @@
     z-index: 30;
     right: 50px;
     box-shadow: 2px 27px 0px 58px rgba(255, 255, 255, 1);
-
-
 }
 
 .tops-submenu {
@@ -129,7 +136,6 @@
     padding-bottom: 12px;
     padding-right: 15;
     padding-left: 15;
-
     background-image: url(Branding/512px%20logo.png);
 }
 
@@ -164,10 +170,10 @@
     word-spacing: -4px
 }
 
+
 /*------IPhone 6/7/8-------*/
 
 @media only screen and (min-width:365px) {
-
     .Chalkableframe {
         top: 8%;
     }
